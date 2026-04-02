@@ -20,6 +20,6 @@ print(barang_unik[0])
 #Kenapa kode di atas error, dan bagaimana cara mengecek apa saja yang ada di dalam set?
 
 #NOMOR5
-profil_pembeli = {"nama": "Windi", "saldo": 100000}
+profil_pembeli = {"nama": "Lala", "saldo": 100000}
 print("Alamat:", profil_pembeli["alamat","saldo"])
 #Kenapa kode di atas error, dan bagaimana cara menampilkan nama dan saldo bersebelahan?
