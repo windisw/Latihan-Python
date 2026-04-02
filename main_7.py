@@ -8,10 +8,10 @@ profile_1 = {
   "hobbies": ["gaming", "learning"]
 }
 
-print("name: %s" % (profile_1["name"]))
-print("hobbies: %s" % (profile_1["hobbies"]))
-print("age : %d" % (profile_1["age"]))
-print("is_male : %s" % (profile_1["is_male"]))
+print("name: " . (profile_1["name"]))
+print("hobbies: " , (profile_1["hobbies"]))
+print("age : " , (profile_1["age"]))
+print("is_male : " , (profile_1["is_male"]))
 #
 
 # %%
