@@ -28,10 +28,5 @@ pertanyaan = input("Masukkan nama hewan atau kategori: ")
 if pertanyaan in deskripsi_hewan:
     print(f"Kategori: {dict(data_hewan)[pertanyaan]}")
     print(f"Deskripsi: {deskripsi_hewan[pertanyaan]}")
-elif pertanyaan in kategori_unik:
-    print(f"Kategori {pertanyaan} berisi hewan:")
-    for nama, kategori in data_hewan:
-        if kategori == pertanyaan:
-            print("-", nama)
 else:
     print("Maaf, saya belum tahu tentang itu.")
