@@ -9,9 +9,6 @@ data_hewan = [
     ("Burung", "Unggas")
 ]
 
-# Set untuk kategori unik
-kategori_unik = set([kategori for _, kategori in data_hewan])
-
 # Dictionary berisi deskripsi hewan
 deskripsi_hewan = {
     "Kucing": "Hewan mamalia yang suka bermain dan sering dijadikan peliharaan.",
